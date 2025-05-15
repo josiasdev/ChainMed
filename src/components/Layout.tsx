@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
+import { Image } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -18,7 +19,7 @@ const Layout = ({ children, showNav = true }: LayoutProps) => {
         <div className="container mx-auto py-4 px-4 flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <div className="h-8 w-8 bg-medical-500 rounded-md flex items-center justify-center">
-              <span className="text-white font-bold">CM</span>
+              <img src="/public/favicon.ico" width={25} height={25} alt="icone"/>
             </div>
             <span className="font-bold text-xl text-medical-600">ChainMed</span>
           </Link>
