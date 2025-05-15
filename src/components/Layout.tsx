@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
-import { Image } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
