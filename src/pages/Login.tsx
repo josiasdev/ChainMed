@@ -171,7 +171,7 @@ const Login = () => {
           {!walletAddress ? (
             <Card>
               <CardHeader className="text-center">
-                <CardTitle className="text-2xl">Bem-vindo ao TuringRX</CardTitle>
+                <CardTitle className="text-2xl">Bem-vindo ao ChainMed</CardTitle>
                 <CardDescription>
                   Conecte sua carteira MetaMask para acessar a plataforma
                 </CardDescription>

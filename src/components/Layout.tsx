@@ -18,9 +18,9 @@ const Layout = ({ children, showNav = true }: LayoutProps) => {
         <div className="container mx-auto py-4 px-4 flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
             <div className="h-8 w-8 bg-medical-500 rounded-md flex items-center justify-center">
-              <span className="text-white font-bold">RX</span>
+              <span className="text-white font-bold">CM</span>
             </div>
-            <span className="font-bold text-xl text-medical-600">TuringRX</span>
+            <span className="font-bold text-xl text-medical-600">ChainMed</span>
           </Link>
           
           <div className="flex items-center space-x-4">
@@ -114,7 +114,7 @@ const Layout = ({ children, showNav = true }: LayoutProps) => {
       
       <footer className="bg-gray-50 border-t border-border">
         <div className="container mx-auto py-6 px-4 text-center text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} TuringRX - Plataforma de Prescrições Médicas com Blockchain
+          &copy; {new Date().getFullYear()} ChainMed - Plataforma de Prescrições Médicas com Blockchain
         </div>
       </footer>
     </div>
